@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  margin: 2rem;
+  width: 375px;
+}
+
+.hero {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.texts {
+  text-align: center;
+  padding: 1.5rem 1.8rem;
+}
+
+h1 {
+  color: hsl(223, 47%, 23%);
+}
+
+#paragraph {
+  color: hsl(224, 23%, 55%);
+}
+
+.apple {
+  display: flex;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 18px;
+  padding: 15px;
+  align-items: center;
+}
+
+.apple > div {
+  margin-right: auto;
+  margin-left: 1rem;
+}
+
+.proceed {
+  width: 100%;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  display: block;
+  padding: 15px 50px;
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.proceed:hover {
+  background-color: hsl(245, 55%, 35%);
+}
+
+.cancel {
+  display: block;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 50px;
+  background-color: white;
+  color: hsl(224, 23%, 55%);
+  width: 100%;
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.cancel:hover {
+  background-color: hsl(225, 100%, 94%);
+}
