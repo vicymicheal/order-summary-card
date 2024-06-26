@@ -47,16 +47,18 @@ h1 {
   color: hsl(223, 47%, 23%);
 }
 
-#paragraph {
+.paragraph {
   color: hsl(224, 23%, 55%);
+  margin: 1.5rem 0;
 }
 
 .apple {
   display: flex;
   background-color: hsl(225, 100%, 98%);
   border-radius: 18px;
-  padding: 15px;
+  padding: 1.5rem;
   align-items: center;
+  margin: 2rem 0;
 }
 
 .apple > div {
@@ -64,10 +66,16 @@ h1 {
   margin-left: 1rem;
 }
 
+a:hover,
+a:focus {
+  color: hsla(245, 50%, 55%);
+  text-decoration: none;
+}
 .proceed {
   width: 100%;
   background-color: hsl(245, 75%, 52%);
   color: white;
+  font-weight: 900;
   border: none;
   border-radius: 8px;
   display: block;
@@ -77,7 +85,7 @@ h1 {
 }
 
 .proceed:hover {
-  background-color: hsl(245, 55%, 35%);
+  background-color: hsla(245, 50%, 55%);
 }
 
 .cancel {
@@ -93,5 +101,7 @@ h1 {
 }
 
 .cancel:hover {
-  background-color: hsl(225, 100%, 94%);
+  color: black;
+  /* background-color: hsl(225, 100%, 94%); */
 }
+
